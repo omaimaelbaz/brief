@@ -3,12 +3,19 @@ body{
     padding: 0;
 }
 main{
-    margin: 0 100px;
-    height: 70vh;
+    height: auto;
 }
 header {
     background-color: gray;
     height: 20vh;
+}
+.Accueil{
+    height: 66vh;
+    margin-bottom: 23px;
+}
+.contact {
+    
+    margin-bottom: 34px;
 }
 header .logo {
     display: flex;
@@ -17,9 +24,6 @@ header .logo {
     color: blueviolet;
  
 }
-/* .Accueil{
-    height: 80vh;
-} */
 nav ul {
     display: flex;
     justify-content: center;
@@ -41,21 +45,120 @@ main button {
     border: none;
 }
 .container{
-    display: flex;
+     display: flex;
+     justify-content: space-around;
 
+}
+.services img{
+    width: 300px;
+    height: 300px;
+    
+}
+.services{
+    box-shadow: 1px 2px 20px lightgray;
+    text-align: center;
 }
 form input,form label ,form textarea{
 display: block;
-width: 80em;
+/* width: 80em; */
 }
+form input ,form textarea{
+    width: 80em;
+
+}
+
 form button {
     width: 80em;
     margin-top: 1em;
-    background-color: bisque;
+    background-color: rgb(29, 162, 210);
 }
+.text h1{
+    font-size: 30px;
+}
+.text span{
+    color: red;
+}
+.text{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.card1 img{
+    width: 92%;
+    height: 50vh;
+}
+.card1{
+     margin:15px;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 10px;
+    box-shadow: 1px 2px 10px lightgray;
+}
+ .cards{
+    display: flex;
+    justify-content: space-between;
+} 
+.carddata h3{
+    color: blue;
+    /* text-align: center; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.carddata{
+    text-align:left ;
+    padding: 10px;
+}
+.carddata a{
+    /* border: 1px solid black; */
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: blue;
+    color: whitesmoke;
+    /* font-weight:bold; */ 
+}
+.carddata p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cardscontainer
+{
+    /* height: 150vh; */
+    /* margin-left: 10px; */
+    /* display: flex; */
+}
+main{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.blogs{
+ display: flex;  
+ gap: 50px;
+ text-align: center;
+
+}
+.blogimg img{
+    width: 450px;
+    height: 300px;
+}
+.blogimg{
+    box-shadow: 1px 2px 10px lightgray;
+
+}
+.textblog {
+    box-shadow: 1px 2px 15px lightgray;
+}
+.textblog p{
+  
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
 footer{
     background-color: gray;
-    height: 10vh;
+     height: 25px; 
     text-align: center;
-    padding-top: 1.5em;
+    padding: 5px;
+    margin-top: 21px;
 }
+
